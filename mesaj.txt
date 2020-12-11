@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <title>Neiste</title>
+    <!--
+
+
+COLORE INTENSE  #9C010F
+COLORE LIGHT #EDE8DA
+
+TESTO LIGHT #3F3D33
+TESTO INTENSE #ffffff 
+
+
+ -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <style type="text/css">
+        #ko_onecolumnBlock_4 .textintenseStyle a,
+        #ko_onecolumnBlock_4 .textintenseStyle a:link,
+        #ko_onecolumnBlock_4 .textintenseStyle a:visited,
+        #ko_onecolumnBlock_4 .textintenseStyle a:hover {
+            color: #ffffff;
+            color: ;
+            text-decoration: none;
+            font-weight: bold;
+            text-decoration: none
+        }
+
+        #ko_onecolumnBlock_4 .textlightStyle a,
+        #ko_onecolumnBlock_4 .textlightStyle a:link,
+        #ko_onecolumnBlock_4 .textlightStyle a:visited,
+        #ko_onecolumnBlock_4 .textlightStyle a:hover {
+            color: #3F3D33;
+            color: ;
+
+            text-decoration: none;
+            font-weight: bold;
+            text-decoration:
+        }
+
+        #ko_compactarticleBlock_5 .articletextintenseStyle a,
+        #ko_compactarticleBlock_5 .articletextintenseStyle a:link,
+        #ko_compactarticleBlock_5 .articletextintenseStyle a:visited,
+        #ko_compactarticleBlock_5 .articletextintenseStyle a:hover {
+            color: #ffffff;
+            color: ;
+
+            text-decoration: none;
+            font-weight: bold;
+            text-decoration: none
+        }
+
+        #ko_compactarticleBlock_5 .articletextlightStyle a,
+        #ko_compactarticleBlock_5 .articletextlightStyle a:link,
+        #ko_compactarticleBlock_5 .articletextlightStyle a:visited,
+        #ko_compactarticleBlock_5 .articletextlightStyle a:hover {
+            color: #3F3D33;
+            color: ;
+            text-decoration: none;
+            font-weight: bold;
+            text-decoration: none
+        }
+    </style>
+
+
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+        #outlook a {
+            padding: 0;
+        }
+
+        /* Force Outlook to provide a "view in browser" message */
+        .ReadMsgBody {
+            width: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        /* Force Hotmail to display emails at full width */
+        .ExternalClass,
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td,
+        .ExternalClass div {
+            line-height: 100%;
+        }
+
+        /* Force Hotmail to display normal line spacing */
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        /* Prevent WebKit and Windows mobile changing default text sizes */
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        /* Remove spacing between tables in Outlook 2007 and up */
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* Allow smoother rendering of resized image in Internet Explorer */
+
+        /* RESET STYLES */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+        }
+
+        /* iOS BLUE LINKS */
+        .appleBody a {
+            color: #68440a;
+            text-decoration: none;
+        }
+
+        .appleFooter a {
+            color: #999999;
+            text-decoration: none;
+        }
+
+        /* MOBILE STYLES */
+        @media screen and (max-width: 525px) {
+
+            /* ALLOWS FOR FLUID TABLES */
+            table[class="wrapper"] {
+                width: 100% !important;
+                min-width: 0px !important;
+            }
+
+            /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+            td[class="mobile-hide"] {
+                display: none;
+            }
+
+            img[class="mobile-hide"] {
+                display: none !important;
+            }
+
+            img[class="img-max"] {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            /* FULL-WIDTH TABLES */
+            table[class="responsive-table"] {
+                width: 100% !important;
+            }
+
+            /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+            td[class="padding"] {
+                padding: 10px 5% 15px 5% !important;
+            }
+
+            td[class="padding-copy"] {
+                padding: 10px 5% 10px 5% !important;
+                text-align: center;
+            }
+
+            td[class="padding-meta"] {
+                padding: 30px 5% 0px 5% !important;
+                text-align: left;
+            }
+
+            td[class="no-pad"] {
+                padding: 0 0 0px 0 !important;
+            }
+
+            td[class="no-padding"] {
+                padding: 0 !important;
+            }
+
+            td[class="section-padding"] {
+                padding: 10px 15px 10px 15px !important;
+            }
+
+            td[class="section-padding-bottom-image"] {
+                padding: 10px 15px 0 15px !important;
+            }
+
+            /* ADJUST BUTTONS ON MOBILE */
+            td[class="mobile-wrapper"] {
+                padding: 10px 5% 15px 5% !important;
+            }
+
+            table[class="mobile-button-container"] {
+                margin: 0 auto;
+                width: 100% !important;
+            }
+
+            a[class="mobile-button"] {
+                width: 80% !important;
+                padding: 15px !important;
+                border: 0 !important;
+                font-size: 16px !important;
+            }
+
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0;" bgcolor="#ffffff" align="center">
+
+    <!-- PREHEADER -->
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="ko_imageBlock_3" class="responsive-table">
+        <table border="0" cellpadding="0" cellspacing="0" width="60%" id="ko_imageBlock_3" class="responsive-table">
+            <tbody>
+                <tr class="row-a">
+                    <td bgcolor="#f2f2f2" align="center" class="no-pad"
+                        style="padding-top: 0px; padding-left: 15px; padding-bottom: 0px; padding-right: 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <!-- HERO IMAGE -->
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="no-padding">
+                                                                        <table width="100%" border="0" cellspacing="0"
+                                                                            cellpadding="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td align="center"
+                                                                                        style="height:auto;width:150px"
+                                                                                        valign="top"><img border="0"
+                                                                                            alt=""
+                                                                                            style="display: block; padding: 30px 0 30px  30px; color: #3F3D33; text-decoration: none; font-family: Helvetica, Arial, sans-serif; font-size: 16px; width: 150px;"
+                                                                                            src="https://neiste.com/images/thumbs/0039433_neiste-logo-150x80.png">
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+
+            </tbody>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="60%" id="ko_onecolumnBlock_4" class="responsive-table">
+
+            <tbody>
+                <tr class="row-a">
+                    <td bgcolor="#EDE8DA" align="center" class="section-padding"
+                        style="padding-top: 30px; padding-left: 15px; padding-bottom: 30px; padding-right: 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <!-- COPY -->
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="left" class="padding-copy"
+                                                                        style="padding: 20px 0 0 0px;font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33; padding-top: 0px;">
+                                                                        Merhaba %Order.CustomerFullName%,</td>
+                                                                    <td align="center"
+                                                                        class="padding-copy textlightStyle"
+                                                                        style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="padding-copy textlightStyle"
+                                                                        style="padding: 20px 0 0 0; font-size: 16px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+                                                                        <p style="margin:0px;">Siparişiniz
+                                                                            tamamlanmıştır.
+                                                                            Aşağıda tamamlanan sipariş özetini
+                                                                            görebilirsiniz. </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="padding-copy textlightStyle"
+                                                                        style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+                                                                        <p style="margin:0px;">
+                                                                            Sipariş No: %Order.OrderNumber%
+                                                                            <br>
+                                                                            Sipariş Detayı:<a
+                                                                                href="%Order.OrderURLForCustomer%"
+                                                                                style="color: #3F3D33; text-decoration: none; font-weight: bold;">
+                                                                                %Order.OrderURLForCustomer% </a>
+                                                                            <br>
+                                                                            Sipariş Tarihi: %Order.CreatedOn%
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="60%" id="ko_onecolumnBlock_4" class="responsive-table"
+            style="border-bottom:1px solid #cdcdcd;border-top:1px solid #cdcdcd">
+
+            <tbody>
+                <tr class="row-a">
+                    <td bgcolor="#EDE8DA" align="center" class="section-padding"
+                        style="padding-top: 30px; padding-left: 15px; padding-bottom: 30px; padding-right: 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <!-- COPY -->
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="left" class="padding-meta"
+                                                                        style="padding: 0 0 5px 0; font-size: 17px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #3F3D33;">
+                                                                        Fatura Adresi: </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        class="padding-copy articletextintenseStyle"
+                                                                        style="padding: 5px 0 5px 0; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+                                                                        <p style="margin-top:0px">
+                                                                            %Order.BillingAddress1%
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        class="padding-copy articletextintenseStyle"
+                                                                        style="padding: 3px 0 10px 0; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+                                                                        <p style="margin-top:0px">
+                                                                            %Order.BillingAddress2%
+                                                                        </p>
+                                                                        <p>
+                                                                            %Order.BillingCity%
+                                                                            %Order.BillingZipPostalCode%
+
+                                                                        </p>
+                                                                        <p>
+                                                                            %Order.BillingStateProvince%
+                                                                            %Order.BillingCountry%
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left" class="padding-meta"
+                                                                        style="padding: 0 0 5px 0; font-size: 17px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #3F3D33;">
+                                                                        Teslimat Adresi: </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        class="padding-copy articletextintenseStyle"
+                                                                        style="padding: 5px 0 5px 0; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+                                                                        <p style="margin-top:0px">
+                                                                            %Order.ShippingAddress1%
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        class="padding-copy articletextintenseStyle"
+                                                                        style="padding: 3px 0 10px 0; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+                                                                        <p style="margin-top:0px">
+                                                                            %Order.ShippingAddress2%
+                                                                        </p>
+                                                                        <p>
+                                                                            %Order.ShippingCity%
+                                                                            %Order.ShippingZipPostalCode%
+
+                                                                        </p>
+                                                                        <p>
+                                                                            %Order.ShippingStateProvince%
+                                                                            %Order.ShippingCountry%
+                                                                        </p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        class="padding-copy articletextintenseStyle"
+                                                                        style="padding: 10px 0 10px 0; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+                                                                        <p style="margin-top:0px">Teslimat Yöntemi:
+                                                                            %Order.ShippingMethod% </p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+
+
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table border="0" cellpadding="0" cellspacing="0" width="60%" id="ko_socialBlock_7" class="responsive-table">
+            <tbody>
+                <tr class="row-a">
+                    <td bgcolor="#f2f2f2" align="center" class="section-padding" style="padding: 10px 15px 0px 15px;">
+                        <table border="0" cellpadding="0" cellspacing="0" width="500" style="padding: 0 0 0px 0;"
+                            class="responsive-table">
+                            <tbody>
+                                <tr>
+                                    <td align="center" style="padding: 10 10px 10px 10px; font-size: 25px;"
+                                        class="padding-copy">
+                                        <a target="_new" href="https://www.facebook.com/neistecom"><img
+                                                src="https://mosaico.io/templates/versafluid/img/social/facebook.png"
+                                                alt="Neiste facebook" width="48" height="48"
+                                                style="padding: 0 5px 0px 0px;"></a>
+                                        <a target="_new" href="https://twitter.com/neiste_com"><img
+                                                src="https://mosaico.io/templates/versafluid/img/social/twitter.png"
+                                                alt="Neiste twitter" width="48" height="48"
+                                                style="padding: 0 5px 0px 5px;"></a>
+                                        <a target="_new" href="http://www.linkedin.com"><img
+                                                src="https://mosaico.io/templates/versafluid/img/social/linkedin.png"
+                                                alt="Neiste linkedin" width="48" height="48"
+                                                style="padding: 0 5px 0px 5px;"></a>
+                                        <a target="_new" href="https://www.instagram.com/neiste_com/"><img
+                                                src="https://mosaico.io/templates/versafluid/img/social/instagram.png"
+                                                alt="Neiste instagram" width="48" height="48"
+                                                style="padding: 0 0px 0px 5px;"></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <!-- FOOTER -->
+        <!-- <table border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 500px;" id="ko_footerBlock_2">
+        <tbody>
+            <tr>
+                <td bgcolor="#ffffff" align="center">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                            <tr>
+                                <td style="padding: 20px 0px 20px 0px;">
+                                    <table width="500" border="0" cellspacing="0" cellpadding="0" align="center"
+                                        class="responsive-table">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" valign="middle"
+                                                    style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color: #3F3D33;">
+                                                    <span class="appleFooter" style="color: #3F3D33;">Main address and
+                                                        city</span><br><a class="original-only" href="[profile_link]"
+                                                        style="color: #3F3D33; text-decoration: none;"
+                                                        target="_new">Unsubscribe</a><span class="original-only"
+                                                        style="font-family: Arial, sans-serif; font-size: 12px; color: #444444;">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a
+                                                        href="[show_link]"
+                                                        style="color: #3F3D33; text-decoration: none;"
+                                                        target="_new">View on web browser</a>
+                                                </td>
+                                            </tr>
+                                            <tr style="text-align: center;">
+                                                <td>
+                                                    <a target="_new" href="https://mosaico.io/?footerbadge"
+                                                        style=";"><img border="0" hspace="0" vspace="0"
+                                                            src="https://mosaico.io/img/mosaico-badge.gif"
+                                                            alt="MOSAICO Responsive Email Designer"
+                                                            style="margin-top: 10px;"></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table> -->
+    </table>
+
+
+</body>
+
+</html>
